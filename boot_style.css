@@ -1,0 +1,141 @@
+
+body
+{
+    padding: 70px;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Active link*/
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link,
+.dropdown-item:focus, .dropdown-item:hover
+{
+     
+    background-color: #E41B17;
+
+}
+/* Navbar link*/
+.navbar-dark .navbar-nav .nav-link
+{
+     color: aliceblue;
+      padding: 20px 15px;
+      font-size: 16px;
+}
+/* Brand Name */
+.navbar-dark .navbar-brand
+{
+    color: aliceblue;
+    font-size: 30px;
+    margin-left: 150px;
+     
+     
+}
+/* drop down menu */
+.navbar-expand-sm .navbar-nav .dropdown-menu
+{
+    background-color: #434649;
+    border-top: 3px solid rebeccapurple;
+    padding: 6px;
+    min-width: 200px;
+    
+    
+     
+}
+
+.dropdown-item 
+{
+    color: aliceblue;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.dropdown-item:focus, .dropdown-item:hover
+{
+     
+    color: aliceblue;
+    padding-left: 30px;
+     
+}
+.navbar-expand-sm .navbar-collapse 
+{
+   
+    margin-right: 190px;
+}
+.plusplus , .about h1 span , .about h3 span 
+{
+    color: #E41B17;
+}
+/*Carousel height*/
+ 
+  img {
+      height: 500px;
+      width: max-content;
+       
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon
+  {
+      background-color: black;
+  }
+  .p-ministre
+  {
+      color: rgb(0, 0, 143);
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  /*start about*/
+
+.about
+{
+    padding: 60px 0px;
+}
+
+.about .lead 
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+.about h1
+{
+    font-weight: bold;
+}
+ 
+  /*end about*/
+
+  /*start features*/
+  .features
+  {
+      background-color: rgb(224, 224, 224);
+      padding: 50px 0px;
+  }
+
+  .features .container h1
+  {
+      font-weight: bold;
+      margin-bottom: 50px;  
+      color: #E41B17;
+  }
+   
+  .features .container .row p {
+      font-size: 18px;
+      margin-bottom: 10px;
+       
+  }
+  .features .container .row svg 
+  {
+      margin-bottom: 10px;
+  }
+  a
+   {
+      color: black;
+  }
+
+
+
+
+  /*end features*/
+
+ 
+ 
